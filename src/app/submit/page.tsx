@@ -6,7 +6,7 @@ import { UploadCloud, Image as ImageIcon, CheckCircle, ArrowLeft, AlertCircle } 
 import confetti from 'canvas-confetti';
 import { submitApp } from '@/lib/actions/submit';
 import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input, TextArea } from '@/components/ui/Input';
 
 export default function SubmitPage() {

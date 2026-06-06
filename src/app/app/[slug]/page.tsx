@@ -6,7 +6,7 @@ import { ArrowLeft, ExternalLink, Globe, Send, MessageSquare, Shield, CheckCircl
 import { createClient } from '@/lib/supabaseServer';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
-import { Card, CardContent } from '@/components/ui/Card';
+import { Card, CardContent } from '@/components/ui/card';
 
 export const dynamic = 'force-dynamic';
 

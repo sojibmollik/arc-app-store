@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { ShieldAlert, Check, X, ChevronDown, ChevronUp, Globe, Send, MessageSquare, ExternalLink, Inbox } from 'lucide-react';
 import { Submission } from '@/types';
 import { approveSubmission, rejectSubmission } from '@/lib/actions/admin';
-import { Card, CardContent } from './ui/Card';
+import { Card, CardContent } from './ui/card';
 import { Button } from './ui/Button';
 import { Badge } from './ui/Badge';
 

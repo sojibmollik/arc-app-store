@@ -3,7 +3,7 @@
 import React, { useState, useTransition } from 'react';
 import { ShieldAlert, Cpu } from 'lucide-react';
 import { loginAdmin } from '@/lib/actions/admin';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui/Card';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui/card';
 import { Input } from './ui/Input';
 import { Button } from './ui/Button';
 

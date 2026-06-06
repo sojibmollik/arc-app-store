@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Search, Compass, Grid, Laptop, Flame, Star, ShieldAlert } from 'lucide-react';
 import { App, AppCategory } from '@/types';
-import { Card, CardContent } from './ui/Card';
+import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/Badge';
 import { Button } from './ui/Button';
 

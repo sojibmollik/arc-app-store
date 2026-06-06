@@ -4,7 +4,7 @@ import { LayoutDashboard, FolderKanban, Inbox, ShieldCheck, ArrowUpRight } from 
 import { createClient } from '@/lib/supabaseServer';
 import { getAdminStats } from '@/lib/actions/admin';
 import { AdminLogin } from '@/components/AdminLogin';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/Button';
 
 export const dynamic = 'force-dynamic';

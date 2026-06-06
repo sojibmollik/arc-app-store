@@ -4,7 +4,7 @@ import React, { useState, useTransition } from 'react';
 import { Trash2, Image as ImageIcon, Plus, Cpu, AlertCircle, UploadCloud } from 'lucide-react';
 import { App } from '@/types';
 import { deleteApp, createManualAppWithFiles } from '@/lib/actions/admin';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/Card';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Button } from './ui/Button';
 import { Input, TextArea } from './ui/Input';
 

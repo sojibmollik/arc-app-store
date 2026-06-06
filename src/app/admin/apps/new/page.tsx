@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft, Cpu, AlertCircle, UploadCloud, Image as ImageIcon } from 'lucide-react';
 import { createManualAppWithFiles } from '@/lib/actions/admin';
 import { Button } from '@/components/ui/Button';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Input, TextArea, Select } from '@/components/ui/Input';
 
 export default function NewManualAppPage() {
